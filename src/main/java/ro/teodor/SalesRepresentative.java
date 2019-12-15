@@ -10,9 +10,8 @@ public class SalesRepresentative {
         this.quotaPerSales = quotaPerSales;
     }
     public double wortOfSales () {
-       return numberOfSales * quotaPerSales;}
-
-
+       return numberOfSales * quotaPerSales;
+    }
 
 
     static void bubbleSort(double[] arr) {
