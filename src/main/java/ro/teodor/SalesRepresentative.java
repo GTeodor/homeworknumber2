@@ -5,7 +5,12 @@ public class SalesRepresentative {
     private double quotaPerSales;
     private String name;
 
-
+    /**
+     *
+     * @param name
+     * @param numberOfSales
+     * @param quotaPerSales
+     */
    public SalesRepresentative(String name, int numberOfSales, double quotaPerSales){
         this.numberOfSales = numberOfSales;
         this.quotaPerSales = quotaPerSales;
