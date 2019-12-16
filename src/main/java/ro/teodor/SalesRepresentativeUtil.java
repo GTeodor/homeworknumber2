@@ -1,6 +1,7 @@
 package ro.teodor;
 
 public class SalesRepresentativeUtil {
+    
     public static SalesRepresentative [] sort(SalesRepresentative[] reps) {
         int n = reps.length;
         SalesRepresentative temp;
